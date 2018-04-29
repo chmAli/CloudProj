@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/add_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AddRoom"
+            android:text="Add Room" />
+
+        <Button
+            android:id="@+id/view_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ViewRoom"
+            android:text="View Rooms" />
+
+        <Button
+            android:id="@+id/view_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ViewUser"
+            android:text="View Users" />
+
+        <Button
+            android:id="@+id/view_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ViewCooment"
+            android:text="View Comments" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ProfileView"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="logoutBtn"
+            android:text="Logout" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

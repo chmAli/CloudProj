@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542004930577",
+    "firebase_url": "https://cloudhotel-b6f1d.firebaseio.com",
+    "project_id": "cloudhotel-b6f1d",
+    "storage_bucket": "cloudhotel-b6f1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542004930577:android:fd146bbc1dbc93d7",
+        "android_client_info": {
+          "package_name": "com.cloud.ali.cloudhotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542004930577-i97jgfsb5d41afquvn442uble430ovjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloud.ali.cloudhotel",
+            "certificate_hash": "382c0a770a23a66b4d8a881a22db4f8d31ac63a9"
+          }
+        },
+        {
+          "client_id": "542004930577-1ijn70bsmesa5ke45utkkmioauqccbab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBALCNbM7f374iCKIXzuKJy-kVbSpznQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542004930577-1ijn70bsmesa5ke45utkkmioauqccbab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
